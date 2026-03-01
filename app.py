@@ -12,7 +12,7 @@ st.set_page_config(page_title="Diamond Standard Ratings", layout="wide")
 # --- 1. DATA LOADING FUNCTIONS ---
 def get_rpi_data():
     # Looks for game files in the root folder of your GitHub repo
-    file_pattern = 'cbase_games_*.csv'
+    file_pattern = 'College Baseball Games/cbase_games_*.csv'
     game_files = glob.glob(file_pattern)
 
     if not game_files:
