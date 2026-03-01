@@ -137,7 +137,7 @@ elif page == "Efficiency Analysis":
         st.pyplot(fig)
     else:
         st.warning("Stats file not found. Please upload 'baseball_stats.csv'.")
- elif page == "Efficiency Analysis":
+    elif page == "Efficiency Analysis":
     st.title("📈 Efficiency: OPS vs. Runs Allowed")
     eff_df = get_efficiency_data()
     
