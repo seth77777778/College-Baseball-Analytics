@@ -56,7 +56,17 @@ def get_rpi_data():
             'OWP': round(owp.get(team, 0), 4),
             'OOWP': round(oowp.get(team, 0), 4)
         })
+    # Step 6: Create and Sort DataFrame
+    rpi_df = pd.DataFrame(final_results).sort_values(by='RPI', ascending=False).reset_index(drop=True)
+
+    # --- THE ADDITION: Add a Rank Column ---
+    # This creates a list from 1 to the total number of teams
+    rpi_df.insert(0, 'Rank', range(1, len(rpi_df) + 1))
     
+    # Optional: Add a '#' to the rank for style
+    rpi_df['Rank'] = '#' + rpi_df['Rank'].astype(str)
+
+    return rpi_df
     return pd.DataFrame(final_results).sort_values(by='RPI', ascending=False).reset_index(drop=True)
 
 def get_efficiency_data():
