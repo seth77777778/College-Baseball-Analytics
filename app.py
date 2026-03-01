@@ -60,7 +60,7 @@ def get_rpi_data():
     return pd.DataFrame(final_results).sort_values(by='RPI', ascending=False).reset_index(drop=True)
 
 def get_efficiency_data():
-    file_path = 'College Baseball Games/baseball_stats.csv'
+    file_path = 'baseball_stats.csv'
     if not os.path.exists(file_path): 
         return None
     
