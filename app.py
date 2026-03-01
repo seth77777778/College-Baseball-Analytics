@@ -138,8 +138,8 @@ elif page == "Efficiency Analysis":
     else:
         st.warning("Stats file not found. Please upload 'baseball_stats.csv'.")
     elif page == "Efficiency Analysis":
-    st.title("📈 Efficiency: OPS vs. Runs Allowed")
-    eff_df = get_efficiency_data()
+        st.title("📈 Efficiency: OPS vs. Runs Allowed")
+        eff_df = get_efficiency_data()
     
     if eff_df is not None:
         fig, ax = plt.subplots(figsize=(12, 8))
