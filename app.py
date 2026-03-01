@@ -144,4 +144,23 @@ elif page == "Efficiency Analysis":
     else:
         st.error("Stats file 'baseball_stats.csv' not found.")
 
- 
+ # --- EXPLANATION TEXTBOX ---
+     st.markdown("---") # Adds a horizontal separator line
+        
+        with st.expander("📖 How to read this Efficiency Analysis", expanded=True):
+            st.markdown("""
+            ### **Core Metrics**
+            * **Offensive OPS (X-Axis):** Measures a team's ability to get on base and hit for power. High values indicate a dangerous offense.
+            * **Runs Allowed Per Game (Y-Axis):** Measures pitching and defensive efficiency. **Note:** This axis is inverted, so elite defenses appear at the top.
+            
+            ---
+            ### **The Four Quadrants**
+            * **Upper Right (Elite):** Above-average offense paired with above-average defense.
+            * **Upper Left:** High-tier defense struggling to find offensive production.
+            * **Lower Right:** High-octane offense being held back by pitching/defense.
+            * **Lower Left:** Below-average performance in both categories.
+            
+            ---
+            ### **It would be too much to put all 307 D1 College Baseball teams onto one graph. Therefore, I decided to do the ACC, SEC, Big 10, Big 12, and 26 mid-majors that are having good seasons this year, and that typically have good seasons.**
+            Write your specific takeaways for this week here. For example: *"Many of the teams that appear elite by these graphs have not faced real competition yet."*
+            """)
