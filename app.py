@@ -144,9 +144,7 @@ elif page == "Efficiency Analysis":
     else:
         st.error("Stats file 'baseball_stats.csv' not found.")
 
- # --- EXPLANATION TEXTBOX ---
-     st.markdown("---") # Adds a horizontal separator line
-        
+   
         with st.expander("📖 How to read this Efficiency Analysis", expanded=True):
             st.markdown("""
             ### **Core Metrics**
