@@ -73,7 +73,6 @@ def get_efficiency_data():
         return combined.dropna(subset=['OPS', 'RA_per_G'])
     except: 
         return None
-
 # --- SIDEBAR NAVIGATION ---
 st.sidebar.title("💎 Diamond Standard")
 page = st.sidebar.radio("Navigate", ["Home", "RPI Leaderboard", "Efficiency Analysis"])
@@ -137,38 +136,7 @@ elif page == "Efficiency Analysis":
         st.pyplot(fig)
     else:
         st.warning("Stats file not found. Please upload 'baseball_stats.csv'.")
-    elif page == "Efficiency Analysis":
-        st.title("📈 Efficiency: OPS vs. Runs Allowed")
-        eff_df = get_efficiency_data()
-    
-    if eff_df is not None:
-        fig, ax = plt.subplots(figsize=(12, 8))
-        sns.set_style("whitegrid")
-        
-        # Quadrant averages
-        avg_ops = eff_df['OPS'].mean()
-        avg_ra = eff_df['RA_per_G'].mean()
-        ax.axvline(avg_ops, color='black', linestyle='--', alpha=0.3)
-        ax.axhline(avg_ra, color='black', linestyle='--', alpha=0.3)
 
-        for _, row in eff_df.iterrows():
-            color = 'red' if row['Conference'] == 'SEC' else 'blue'
-            ax.scatter(row['OPS'], row['RA_per_G'], color=color, s=100, edgecolors='black', alpha=0.6)
-            ax.text(row['OPS'], row['RA_per_G'], row['Team'], fontsize=8, ha='center', va='bottom')
-
-        # Annotations
-        max_ops, min_ops = eff_df['OPS'].max(), eff_df['OPS'].min()
-        max_ra, min_ra = eff_df['RA_per_G'].max(), eff_df['RA_per_G'].min()
-        
-        ax.text(max_ops, min_ra, "Elite", color='green', fontweight='bold')
-        ax.text(min_ops, max_ra, "Underperforming", color='red', fontweight='bold')
-
-        plt.gca().invert_yaxis()
-        ax.set_xlabel("Offensive OPS")
-        ax.set_ylabel("Runs Allowed Per Game")
-        st.pyplot(fig)
-    else:
-        st.warning("Stats file not found. Please upload 'baseball_stats.csv'.")
 
 
 
