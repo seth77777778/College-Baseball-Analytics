@@ -142,6 +142,7 @@ elif page == "Efficiency Analysis":
 
         # Plot teams
         for _, row in eff_df.iterrows():
+            color = 'red' if row['Conference'] == 'SEC' else 'blue'
             ax.scatter(row['OPS'], row['RA_per_G'], color=color, s=100, edgecolors='black', alpha=0.6)
             ax.text(row['OPS'], row['RA_per_G'], row['Team'], fontsize=8, ha='center', va='bottom')
 
