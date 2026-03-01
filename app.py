@@ -60,25 +60,41 @@ def get_rpi_data():
     return pd.DataFrame(final_results).sort_values(by='RPI', ascending=False).reset_index(drop=True)
 
 def get_efficiency_data():
-    # Ensure this filename matches your GitHub file exactly (Case Sensitive)
-    file_path = 'baseball_stats.csv'
+    file_path = 'College Baseball Games/baseball_stats.csv'
     if not os.path.exists(file_path): 
         return None
     
     df_raw = pd.read_csv(file_path)
     try:
-        # SEC Logic
-        df_sec = df_raw[['SEC', 'ops', 'ra/g']].copy().dropna(subset=['SEC'])
-        df_sec.columns = ['Team', 'OPS', 'RA_per_G']
-        df_sec['Conference'] = 'SEC'
+        # Helper list to process each conference block
+        # Format: (Column Name, OPS Column, RA/G Column, Conference Label)
+        conf_blocks = [
+            ('SEC', 'ops', 'ra/g', 'SEC'),
+            ('ACC', 'ops.1', 'ra/g.1', 'ACC'),
+            ('Big 10', 'ops.2', 'ra/g.2', 'Big 10'),
+            ('Big 12', 'ops.3', 'ra/g.3', 'Big 12'),
+            ('Mid-Major', 'ops.4', 'ra/g.4', 'Mid-Major')
+        ]
         
-        # ACC Logic
-        df_acc = df_raw[['ACC', 'ops.1', 'ra/g.1']].copy().dropna(subset=['ACC'])
-        df_acc.columns = ['Team', 'OPS', 'RA_per_G']
-        df_acc['Conference'] = 'ACC'
+        all_confs = []
         
-        return pd.concat([df_sec, df_acc], ignore_index=True)
-    except: 
+        for team_col, ops_col, ra_col, label in conf_blocks:
+            if team_col in df_raw.columns:
+                temp_df = df_raw[[team_col, ops_col, ra_col]].copy().dropna(subset=[team_col])
+                temp_df.columns = ['Team', 'OPS', 'RA_per_G']
+                temp_df['Conference'] = label
+                all_confs.append(temp_df)
+        
+        combined = pd.concat(all_confs, ignore_index=True)
+
+        # Force numeric conversion to prevent the TypeError you saw earlier
+        combined['OPS'] = pd.to_numeric(combined['OPS'], errors='coerce')
+        combined['RA_per_G'] = pd.to_numeric(combined['RA_per_G'], errors='coerce')
+
+        return combined.dropna(subset=['OPS', 'RA_per_G'])
+        
+    except Exception as e:
+        st.error(f"Error processing stats: {e}")
         return None
 
 # --- 2. SIDEBAR (Only defined ONCE to avoid Duplicate ID error) ---
