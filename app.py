@@ -136,14 +136,8 @@ elif page == "Efficiency Analysis":
             ax.scatter(row['OPS'], row['RA_per_G'], color=color, s=100, edgecolors='black', alpha=0.6)
             ax.text(row['OPS'], row['RA_per_G'], row['Team'], fontsize=8, ha='center', va='bottom')
 
-        plt.gca().invert_yaxis() # Lower RA/G is better
-        ax.set_xlabel("Offensive OPS")
-        ax.set_ylabel("Runs Allowed Per Game")
-        st.pyplot(fig)
-    else:
-        st.error("Stats file 'baseball_stats.csv' not found.")
 
-  # Top Right (High OPS, Low RA/G)
+         # Top Right (High OPS, Low RA/G)
         ax.text(max_ops, min_ra, "Good Offense, Good Defense", color='green', fontsize=12, fontweight='bold', ha='right', va='top')
     
         # Bottom Right (High OPS, High RA/G)
@@ -154,3 +148,12 @@ elif page == "Efficiency Analysis":
         
         # Bottom Left (Low OPS, High RA/G)
         ax.text(min_ops, max_ra, "Bad Offense, Bad Befense", color='red', fontsize=12, fontweight='bold', ha='left', va='bottom')
+
+        plt.gca().invert_yaxis() # Lower RA/G is better
+        ax.set_xlabel("Offensive OPS")
+        ax.set_ylabel("Runs Allowed Per Game")
+        st.pyplot(fig)
+    else:
+        st.error("Stats file 'baseball_stats.csv' not found.")
+
+ 
