@@ -140,20 +140,7 @@ elif page == "Efficiency Analysis":
         plt.gca().invert_yaxis() # Lower RA/G is better
         ax.set_xlabel("Offensive OPS")
         ax.set_ylabel("Runs Allowed Per Game")
-        st.pyplot(fig)
-   # Top Right (High OPS, Low RA/G)
-        ax.text(max_ops, min_ra, "Good Offense, Good Defense", color='green', fontsize=12, fontweight='bold', ha='right', va='top')
-    
-        # Bottom Right (High OPS, High RA/G)
-        ax.text(max_ops, max_ra, "Good Offense, Poor Defense", color='purple', fontsize=10, ha='right', va='bottom')
-        
-        # Top Left (Low OPS, Low RA/G)
-        ax.text(min_ops, min_ra, "Good Defense, Poor Offense", color='blue', fontsize=10, ha='left', va='top')
-        
-        # Bottom Left (Low OPS, High RA/G)
-        ax.text(min_ops, max_ra, "Bad Offense, Bad Befense", color='red', fontsize=12, fontweight='bold', ha='left', va='bottom')
-
-    
+        st.pyplot(fig)    
     else:
         st.error("Stats file 'baseball_stats.csv' not found.")
 
