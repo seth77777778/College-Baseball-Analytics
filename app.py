@@ -116,7 +116,10 @@ if page == "Home":
     st.title("⚾ Welcome to Diamond Standard Ratings")
     st.write("Custom analytics for D1 Baseball.")
     st.info("Diamond Standard was created to analyze the correlation between team OPS and team RA/G. This has ultimately led to me also pursuing my own RPI rankings, which you can also find on this website.")
+    st.info("RPI updated daily, and the Efficiency Graph will be updated every Tuesday and Friday.")
 
+
+        
 elif page == "RPI Leaderboard":
     st.title("🏆 Live RPI Rankings")
     rpi_df = get_rpi_data()
