@@ -109,7 +109,7 @@ def get_efficiency_data():
 
 # --- 2. SIDEBAR (Only defined ONCE to avoid Duplicate ID error) ---
 st.sidebar.title("💎 Diamond Standard")
-page = st.sidebar.radio("Navigate", ["Home", "RPI Leaderboard", "Efficiency Analysis"])
+page = st.sidebar.radio("Navigate", ["Home", "RPI Leaderboard", "Efficiency Analysis", "Diamond Standard Blog", "Top 25 Rankings"])
 
 # --- 3. PAGE LOGIC ---
 if page == "Home":
@@ -154,10 +154,6 @@ elif page == "Efficiency Analysis":
         ax.set_xlabel("Offensive OPS")
         ax.set_ylabel("Runs Allowed Per Game")
         st.pyplot(fig)    
-    else:
-        st.error("Stats file 'baseball_stats.csv' not found.")
-
-   
         with st.expander("📖 How to read this Efficiency Analysis", expanded=True):
             st.markdown("""
             ### **Core Metrics**
@@ -175,3 +171,18 @@ elif page == "Efficiency Analysis":
             ### **It would be too much to put all 307 D1 College Baseball teams onto one graph. Therefore, I decided to do the ACC, SEC, Big 10, Big 12, and 26 mid-majors that are having good seasons this year, and that typically have good seasons.**
             Write your specific takeaways for this week here. For example: *"Many of the teams that appear elite by these graphs have not faced real competition yet."*
             """)
+    else:
+        st.error("Stats file 'baseball_stats.csv' not found.")
+
+   
+        
+elif page == "Diamond Standard Blog":
+    st.title("Blog")
+    st.write("Blog Articles about College Basebal")
+    st.info("Welcome to Diamond Standard. This website will focus on College Baseball Analytics as I search for the best teams, and the teams that will make it to Omaha. More blog posts to come in the future.")
+
+elif page == "Top 25 Rankings"
+    st.title("Diamond Standard Top 25")
+    st.info("List the teams 1-25")
+
+
