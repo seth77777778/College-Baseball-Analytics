@@ -115,7 +115,7 @@ page = st.sidebar.radio("Navigate", ["Home", "RPI Leaderboard", "Efficiency Anal
 if page == "Home":
     st.title("⚾ Welcome to Diamond Standard Ratings")
     st.write("Custom analytics for D1 Baseball.")
-    st.info("Download your CSV from Drive and upload to GitHub to update these charts.")
+    st.info("Diamond Standard was created to analyze the correlation between team OPS and team RA/G. This has ultimately led to me also pursuing my own RPI rankings, which you can also find on this website.")
 
 elif page == "RPI Leaderboard":
     st.title("🏆 Live RPI Rankings")
