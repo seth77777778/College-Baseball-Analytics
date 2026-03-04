@@ -181,7 +181,7 @@ elif page == "Diamond Standard Blog":
     st.write("Blog Articles about College Basebal")
     st.info("Welcome to Diamond Standard. This website will focus on College Baseball Analytics as I search for the best teams, and the teams that will make it to Omaha. More blog posts to come in the future.")
 
-elif page == "Top 25 Rankings"
+elif page == "Top 25 Rankings":
     st.title("Diamond Standard Top 25")
     st.info("List the teams 1-25")
 
