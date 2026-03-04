@@ -168,8 +168,9 @@ elif page == "Efficiency Analysis":
             * **Lower Left:** Below-average performance in both categories.
             
             ---
-            ### **It would be too much to put all 307 D1 College Baseball teams onto one graph. Therefore, I decided to do the ACC, SEC, Big 10, Big 12, and 26 mid-majors that are having good seasons this year, and that typically have good seasons.**
-            Write your specific takeaways for this week here. For example: *"Many of the teams that appear elite by these graphs have not faced real competition yet."*
+            ### **Takeaways**
+            * **It would be too much to put all 307 D1 College Baseball teams onto one graph. Therefore, I decided to do the ACC, SEC, Big 10, Big 12, and 26 mid-majors that are having good seasons this year, and that typically have good seasons.**
+            * "NC State appears to be elite, but they have yet to face major competition."*
             """)
     else:
         st.error("Stats file 'baseball_stats.csv' not found.")
