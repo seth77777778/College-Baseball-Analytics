@@ -3,11 +3,11 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-24,Arizona St.,Oklahoma,Away,35.0%,65.0%,Oklahoma -1.71,9.3,4,5,Arizona St. 15-3
 2026-02-24,Alabama,Southern Miss.,Away,44.4%,55.6%,Southern Miss. -0.84,8.7,72,1,Southern Miss. 14-4
 2026-02-24,UTSA,Texas St.,Home,65.1%,34.8%,UTSA -1.96,8.3,10,69,Texas St. 7-2
-2026-02-24,UCF,Jacksonville,Home,47.1%,52.9%,Jacksonville -0.33,7.9,95,79,UCF 0-0
+2026-02-24,UCF,Jacksonville,Home,47.1%,52.9%,Jacksonville -0.33,7.9,95,79,
 2026-02-24,San Diego,UC San Diego,Away,66.4%,33.6%,San Diego -1.97,7.8,27,94,UC San Diego 8-7
 2026-02-24,Arkansas St.,Arkansas,Home,15.7%,84.3%,Arkansas -4.91,7.6,62,17,Arkansas St. 12-4
 2026-02-24,Georgia St.,Georgia Tech,Away,17.9%,82.0%,Georgia Tech -4.61,7.6,50,52,Georgia St. 9-4
-2026-02-24,UC Davis,California,Home,28.7%,71.3%,California -2.56,7.5,89,42,UC Davis 0-0
+2026-02-24,UC Davis,California,Home,28.7%,71.3%,California -2.56,7.5,89,42,
 2026-02-24,CSUN,California Baptist,Away,30.1%,69.9%,California Baptist -2.42,7.3,103,54,CSUN 7-5
 2026-02-24,Indiana St.,FGCU,Home,30.2%,69.8%,FGCU -2.62,7.0,124,55,FGCU 17-1
 2026-02-24,San Diego St.,UCLA,Away,14.0%,86.0%,UCLA -5.45,7.0,93,29,San Diego St. 4-3
@@ -37,7 +37,7 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-24,Oral Roberts,Missouri St.,Home,26.2%,73.8%,Missouri St. -2.85,5.7,206,39,Missouri St. 13-1
 2026-02-24,Davidson,Wofford,Away,39.1%,60.9%,Wofford -1.18,5.6,193,141,Wofford 12-8
 2026-02-24,UIW,Tarleton St.,Home,34.7%,65.3%,Tarleton St. -1.84,5.5,169,176,Tarleton St. 17-5
-2026-02-24,William & Mary,George Mason,Home,37.0%,63.0%,George Mason -1.74,5.5,202,129,William & Mary 0-0
+2026-02-24,William & Mary,George Mason,Home,37.0%,63.0%,George Mason -1.74,5.5,202,129,
 2026-02-24,Memphis,Little Rock,Home,40.3%,59.7%,Little Rock -1.26,5.4,215,128,Memphis 24-5
 2026-02-24,Saint Mary's (CA),CSU Bakersfield,Home,66.7%,33.3%,Saint Mary's (CA) -2.34,5.4,137,196,Saint Mary's (CA) 10-8
 2026-02-24,Tulane,New Orleans,Home,68.9%,31.1%,Tulane -2.38,5.3,115,208,New Orleans 11-3
@@ -45,11 +45,11 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-24,SFA,Baylor,Home,17.6%,82.4%,Baylor -4.48,5.2,190,86,Baylor 9-8
 2026-02-24,DBU,UT Arlington,Away,77.1%,22.9%,DBU -3.67,5.0,73,230,DBU 6-1
 2026-02-24,Kennesaw St.,Ga. Southern,Home,66.6%,33.4%,Kennesaw St. -2.3,5.0,80,251,Kennesaw St. 7-5
-2026-02-24,Rutgers,Saint Joseph's,Away,82.3%,17.7%,Rutgers -4.42,4.9,51,234,Rutgers 0-0
+2026-02-24,Rutgers,Saint Joseph's,Away,82.3%,17.7%,Rutgers -4.42,4.9,51,234,
 2026-02-24,Western Mich.,UNLV,Home,16.8%,83.2%,UNLV -4.63,4.8,211,98,UNLV 9-5
 2026-02-24,N.C. A&T,North Carolina,Away,5.0%,95.0%,North Carolina -8.48,4.7,238,7,North Carolina 9-1
 2026-02-24,Evansville,Vanderbilt,Away,6.4%,93.6%,Vanderbilt -7.65,4.5,221,66,Vanderbilt 15-3
-2026-02-24,Rhode Island,Bryant,Home,28.2%,71.8%,Bryant -2.58,4.5,248,130,Rhode Island 0-0
+2026-02-24,Rhode Island,Bryant,Home,28.2%,71.8%,Bryant -2.58,4.5,248,130,
 2026-02-24,Delaware,Maryland,Away,15.6%,84.4%,Maryland -4.66,4.5,227,104,Maryland 15-14
 2026-02-24,Bellarmine,Tennessee,Away,3.2%,96.8%,Tennessee -9.59,4.3,226,70,Tennessee 8-3
 2026-02-24,Murray St.,UT Martin,Away,75.6%,24.4%,Murray St. -3.6,4.2,140,252,Murray St. 7-5
@@ -58,10 +58,10 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-24,Presbyterian,Clemson,Home,2.5%,97.5%,Clemson -10.32,3.8,290,9,Clemson 6-2
 2026-02-24,Florida A&M,Mercer,Away,7.0%,93.0%,Mercer -7.3,3.8,292,32,Mercer 7-0
 2026-02-24,Akron,Western Caro.,Away,15.7%,84.3%,Western Caro. -4.93,3.7,264,131,Western Caro. 12-2
-2026-02-24,Navy,Coppin St.,Home,96.4%,3.6%,Navy -8.99,3.6,117,246,Navy 0-0
-2026-02-24,Canisius,West Virginia,Away,2.6%,97.4%,West Virginia -10.16,3.6,299,23,Canisius 0-0
+2026-02-24,Navy,Coppin St.,Home,96.4%,3.6%,Navy -8.99,3.6,117,246,
+2026-02-24,Canisius,West Virginia,Away,2.6%,97.4%,West Virginia -10.16,3.6,299,23,
 2026-02-24,Prairie View,A&M-Corpus Christi,Home,13.0%,87.0%,A&M-Corpus Christi -5.46,3.5,265,144,A&M-Corpus Christi 9-2
-2026-02-24,Merrimack,Boston College,Home,10.5%,89.5%,Boston College -6.12,3.5,249,153,Merrimack 0-0
+2026-02-24,Merrimack,Boston College,Home,10.5%,89.5%,Boston College -6.12,3.5,249,153,
 2026-02-24,Seattle U,Washington,Away,30.8%,69.2%,Washington -2.48,3.5,241,259,Seattle U 14-11
 2026-02-24,Saint Louis,SIUE,Home,33.0%,67.0%,SIUE -1.98,3.3,286,228,SIUE 17-7
 2026-02-24,Mississippi Val.,Jacksonville St.,Home,0.8%,99.2%,Jacksonville St. -13.27,3.0,304,76,Jacksonville St. 15-3
