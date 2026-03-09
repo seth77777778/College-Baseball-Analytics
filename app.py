@@ -184,6 +184,6 @@ elif page == "Diamond Standard Blog":
 
 elif page == "Top 25 Rankings":
     st.title("Diamond Standard Top 25")
-    st.info("List the teams 1-25")
+    st.info("1. Texas, 2. UCLA, 3. Georgia Tech, 4. Mississippi State, 5. Southern Miss, 6. Arkansas, 7. Auburn, 8. Oklahoma, 9. Georgia, 10. Clemson, 11. Wake Forest, 12. NC State, 13. Virginia, 14. LSU, 15. North Carolina, 16. Coastal, 17. UTSA, 18. Florida State, 19. Texas A&M, 20. Southern California, 21. Kentucky, 22. Oregon St., 23. Florida, 24. UC Santa Barbara, 25. TCU")
 
 
