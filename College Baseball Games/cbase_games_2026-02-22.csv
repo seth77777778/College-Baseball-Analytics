@@ -19,7 +19,7 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-22,Michigan St.,Texas,Away,12.0%,88.0%,Texas -5.88,7.6,59,3,Texas 4-0
 2026-02-22,Kent St.,Tennessee,Away,19.7%,80.3%,Tennessee -3.92,7.6,22,70,Kent St. 9-5
 2026-02-22,UTRGV,Houston,Home,32.6%,67.4%,Houston -1.98,7.4,107,43,UTRGV 8-4
-2026-02-22,East Carolina,North Carolina,Away,25.7%,74.3%,North Carolina -3.14,7.3,114,7,East Carolina 3-3
+2026-02-22,East Carolina,North Carolina,Away,25.7%,74.3%,North Carolina -3.14,7.3,114,7,
 2026-02-22,Auburn,Louisville,Neutral,74.6%,25.4%,Auburn -2.99,7.3,16,112,Auburn 10-6
 2026-02-22,Kennesaw St.,Florida,Home,14.1%,85.9%,Florida -5.14,7.3,80,13,Florida 12-9
 2026-02-22,LSU,UCF,Neutral,83.8%,16.2%,LSU -4.89,7.2,14,95,LSU 11-0
@@ -58,7 +58,7 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-22,Lamar University,UT Arlington,Away,51.0%,49.0%,Lamar University -0.47,5.7,109,230,Lamar University 5-3
 2026-02-22,San Jose St.,San Francisco,Home,40.0%,60.0%,San Francisco -1.11,5.7,188,145,San Francisco 9-3
 2026-02-22,Lafayette,Miami (FL),Away,1.6%,98.4%,Miami (FL) -11.52,5.5,165,25,Miami (FL) 30-5
-2026-02-22,Penn St.,Richmond,Away,47.8%,52.2%,Richmond -0.15,5.4,219,157,Penn St. 0-0
+2026-02-22,Penn St.,Richmond,Away,47.8%,52.2%,Richmond -0.15,5.4,219,157,
 2026-02-22,St. John's (NY),Arizona St.,Home,10.7%,89.3%,Arizona St. -5.99,5.3,212,4,Arizona St. 16-6
 2026-02-22,UConn,Arizona,Home,44.3%,55.7%,Arizona -0.51,5.3,122,242,UConn 11-2
 2026-02-22,Navy,Marshall,Neutral,45.8%,54.2%,Marshall -0.66,5.3,117,247,Navy 8-1
@@ -69,14 +69,14 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-22,Oral Roberts,Abilene Christian,Home,30.4%,69.6%,Abilene Christian -2.34,5.1,206,142,Abilene Christian 8-7
 2026-02-22,Western Mich.,UC San Diego,Home,23.5%,76.5%,UC San Diego -3.52,5.1,211,94,Western Mich. 5-2
 2026-02-22,ULM,New Orleans,Home,54.9%,45.1%,ULM -0.33,5.0,214,208,ULM 9-1
-2026-02-22,Villanova,Lipscomb,Home,37.7%,62.3%,Lipscomb -1.36,4.9,216,180,Villanova 0-0
+2026-02-22,Villanova,Lipscomb,Home,37.7%,62.3%,Lipscomb -1.36,4.9,216,180,
 2026-02-22,Eastern Mich.,Austin Peay,Home,25.0%,75.0%,Austin Peay -3.4,4.9,209,125,Austin Peay 6-1
 2026-02-22,Bellarmine,Georgia St.,Away,11.7%,88.3%,Georgia St. -5.71,4.8,226,50,Georgia St. 18-8
 2026-02-22,South Dakota St.,Tarleton St.,Away,20.7%,79.3%,Tarleton St. -3.78,4.8,181,176,South Dakota St. 5-1
 2026-02-22,Towson,New Mexico St.,Home,49.0%,51.0%,New Mexico St. -0.09,4.8,200,244,Towson 8-6
 2026-02-22,Morehead St.,Winthrop,Away,16.5%,83.5%,Winthrop -4.74,4.7,223,88,Winthrop 4-3
 2026-02-22,Northeastern,Minnesota,Neutral,21.5%,78.5%,Minnesota -3.35,4.7,254,53,Minnesota 15-5
-2026-02-22,St. Thomas (MN),Lindenwood,Home,44.3%,55.7%,Lindenwood -0.5,4.6,233,220,St. Thomas (MN) 0-0
+2026-02-22,St. Thomas (MN),Lindenwood,Home,44.3%,55.7%,Lindenwood -0.5,4.6,233,220,
 2026-02-22,SFA,Ark.-Pine Bluff,Home,60.6%,39.4%,SFA -1.31,4.6,190,237,SFA 11-5
 2026-02-22,SIUE,Southeastern La.,Away,45.4%,54.6%,Southeastern La. -0.73,4.6,228,232,Southeastern La. 6-5
 2026-02-22,N.C. A&T,Queens (NC),Away,42.0%,58.0%,Queens (NC) -0.92,4.6,238,204,N.C. A&T 6-3
@@ -86,11 +86,11 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-22,Maine,High Point,Home,18.7%,81.3%,High Point -4.26,4.5,198,172,High Point 10-7
 2026-02-22,Columbia,Mercer,Away,13.4%,86.6%,Mercer -5.05,4.5,261,32,Mercer 5-4
 2026-02-22,Washington,LMU (CA),Home,51.8%,48.2%,Washington -0.2,4.5,259,197,LMU (CA) 7-6
-2026-02-22,Central Mich.,Belmont,Home,58.3%,41.7%,Central Mich. -0.92,4.5,149,274,Central Mich. 0-0
+2026-02-22,Central Mich.,Belmont,Home,58.3%,41.7%,Central Mich. -0.92,4.5,149,274,
 2026-02-22,Seattle U,California Baptist,Home,11.5%,88.5%,California Baptist -5.84,4.5,241,54,California Baptist 5-1
 2026-02-22,Coppin St.,Oklahoma,Away,0.3%,99.7%,Oklahoma -16.01,4.4,246,5,Oklahoma 11-0
 2026-02-22,UT Martin,Nicholls,Home,35.2%,64.8%,Nicholls -1.82,4.4,252,159,Nicholls 15-8
-2026-02-22,Iona,Hofstra,Home,33.7%,66.3%,Hofstra -1.88,4.4,255,150,Iona 0-0
+2026-02-22,Iona,Hofstra,Home,33.7%,66.3%,Hofstra -1.88,4.4,255,150,
 2026-02-22,Ga. Southern,South Fla.,Away,17.8%,82.2%,South Fla. -4.44,4.4,251,81,South Fla. 4-3
 2026-02-22,North Dakota St.,Virginia,Neutral,10.9%,89.1%,Virginia -6.08,4.4,239,74,Virginia 5-4
 2026-02-22,St. Bonaventure,Middle Tenn.,Home,22.7%,77.3%,Middle Tenn. -3.43,4.3,229,158,Middle Tenn. 7-0
@@ -103,12 +103,12 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-22,Northern Colo.,New Mexico,Home,6.6%,93.4%,New Mexico -7.52,4.0,257,61,New Mexico 12-11
 2026-02-22,Akron,Western Ill.,Neutral,42.0%,58.0%,Western Ill. -0.87,3.9,264,243,Western Ill. 16-8
 2026-02-22,Yale,Bethune-Cookman,Home,28.8%,71.2%,Bethune-Cookman -2.47,3.9,260,184,Yale 8-3
-2026-02-22,Butler,Murray St.,Away,17.2%,82.8%,Murray St. -4.77,3.9,250,140,Butler 0-0
+2026-02-22,Butler,Murray St.,Away,17.2%,82.8%,Murray St. -4.77,3.9,250,140,
 2026-02-22,Fordham,UNCW,Away,11.6%,88.4%,UNCW -5.85,3.9,231,152,UNCW 7-0
-2026-02-22,Fairfield,Davidson,Home,29.4%,70.6%,Davidson -2.35,3.8,263,193,Fairfield 0-0
+2026-02-22,Fairfield,Davidson,Home,29.4%,70.6%,Davidson -2.35,3.8,263,193,
 2026-02-22,Saint Louis,North Ala.,Home,26.7%,73.3%,North Ala. -2.87,3.8,286,139,North Ala. 8-6
 2026-02-22,West Ga.,Little Rock,Home,23.5%,76.5%,Little Rock -3.58,3.8,280,128,Little Rock 6-1
-2026-02-22,Eastern Ky.,Dayton,Home,20.8%,79.2%,Dayton -3.86,3.8,269,133,Eastern Ky. 0-0
+2026-02-22,Eastern Ky.,Dayton,Home,20.8%,79.2%,Dayton -3.86,3.8,269,133,
 2026-02-22,Bradley,UNLV,Away,10.0%,90.0%,UNLV -6.24,3.7,266,98,UNLV 20-9
 2026-02-22,NJIT,USC Upstate,Away,16.7%,83.3%,USC Upstate -4.72,3.7,289,96,USC Upstate 17-1
 2026-02-22,Dartmouth,Gardner-Webb,Neutral,28.9%,71.0%,Gardner-Webb -2.45,3.6,279,178,Gardner-Webb 6-2
@@ -125,13 +125,13 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-02-22,Harvard,Tulane,Away,9.2%,90.8%,Tulane -6.5,3.3,282,115,Tulane 11-1
 2026-02-22,Wagner,UC Riverside,Home,35.2%,64.8%,UC Riverside -1.62,3.2,291,240,UC Riverside 8-5
 2026-02-22,Monmouth,Stetson,Away,18.4%,81.7%,Stetson -4.36,3.2,276,183,Stetson 14-8
-2026-02-22,Florida A&M,Southern U.,Neutral,55.6%,44.4%,Florida A&M -0.83,3.2,292,287,Florida A&M 0-0
+2026-02-22,Florida A&M,Southern U.,Neutral,55.6%,44.4%,Florida A&M -0.83,3.2,292,287,
 2026-02-22,Grambling,Jackson St.,Neutral,25.7%,74.3%,Jackson St. -2.78,3.0,267,258,Grambling 8-7
-2026-02-22,Dartmouth,FDU,Neutral,66.3%,33.7%,Dartmouth -1.86,3.0,279,277,Dartmouth 0-0
+2026-02-22,Dartmouth,FDU,Neutral,66.3%,33.7%,Dartmouth -1.86,3.0,279,277,
 2026-02-22,Cornell,Boston College,Neutral,11.0%,89.0%,Boston College -6.05,2.9,297,153,Boston College 7-6
 2026-02-22,New Haven,Missouri,Neutral,3.9%,96.1%,Missouri -8.91,2.9,284,138,Missouri 16-2
 2026-02-22,Northern Ky.,Alabama A&M,Neutral,87.5%,12.5%,Northern Ky. -5.47,2.7,186,294,Northern Ky. 8-5
 2026-02-22,Canisius,UNC Greensboro,Away,11.7%,88.3%,UNC Greensboro -5.71,2.7,299,175,UNC Greensboro 12-2
-2026-02-22,La Salle,Delaware St.,Home,80.2%,19.8%,La Salle -3.92,2.6,217,306,La Salle 0-0
+2026-02-22,La Salle,Delaware St.,Home,80.2%,19.8%,La Salle -3.92,2.6,217,306,
 2026-02-22,Alcorn,Houston Christian,Away,1.9%,98.0%,Houston Christian -10.81,2.3,301,170,Houston Christian 10-4
 2026-02-22,Manhattan,Norfolk St.,Away,85.6%,14.4%,Manhattan -4.92,2.3,236,296,Manhattan 0-0
