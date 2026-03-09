@@ -1,7 +1,7 @@
 Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home Net,Final Score
 2026-03-01,UCLA,Mississippi St.,Neutral,46.3%,53.7%,Mississippi St. -0.32,9.7,3,13,UCLA 8-7
 2026-03-01,Michigan,San Diego,Away,47.5%,52.5%,San Diego -0.18,9.1,18,48,Michigan 9-2
-2026-03-01,Florida,Miami (FL),Away,61.4%,38.6%,Florida -1.5,9.0,4,38,Florida 0-0
+2026-03-01,Florida,Miami (FL),Away,61.4%,38.6%,Florida -1.5,9.0,4,38,
 2026-03-01,Arizona St.,Texas A&M,Neutral,30.6%,69.4%,Texas A&M -2.38,8.8,24,9,Texas A&M 9-3
 2026-03-01,Coastal Carolina,Ole Miss,Neutral,41.1%,58.9%,Ole Miss -0.76,8.6,70,10,Coastal Carolina 9-2
 2026-03-01,Kansas,Minnesota,Away,43.0%,57.0%,Minnesota -0.58,8.6,53,40,Kansas 8-3
@@ -72,7 +72,7 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-03-01,NIU,Lindenwood,Home,49.5%,50.5%,NIU -0.08,5.2,133,251,NIU 14-8
 2026-03-01,Rider,Delaware,Home,53.3%,46.7%,Rider -0.34,5.2,231,163,Delaware 5-4
 2026-03-01,Valparaiso,Alabama St.,Home,45.9%,54.1%,Alabama St. -0.64,5.2,197,205,Valparaiso 3-1
-2026-03-01,Stony Brook,FIU,Home,32.2%,67.8%,FIU -2.24,5.1,199,155,Stony Brook 0-0
+2026-03-01,Stony Brook,FIU,Home,32.2%,67.8%,FIU -2.24,5.1,199,155,
 2026-03-01,Dartmouth,LSU,Away,2.8%,97.2%,LSU -10.03,5.0,206,11,LSU 3-0
 2026-03-01,Army West Point,Queens (NC),Away,67.9%,32.1%,Army West Point -2.39,5.0,81,252,Army West Point 5-2
 2026-03-01,Davidson,Wake Forest,Away,9.1%,90.9%,Wake Forest -6.58,5.0,213,32,Wake Forest 16-6
@@ -95,7 +95,7 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-03-01,Villanova,Fla. Atlantic,Home,21.3%,78.7%,Fla. Atlantic -3.9,4.5,255,82,Fla. Atlantic 15-5
 2026-03-01,Quinnipiac,ETSU,Home,10.6%,89.4%,ETSU -6.13,4.4,222,96,ETSU 16-5
 2026-03-01,Lehigh,George Mason,Home,15.3%,84.7%,George Mason -4.94,4.3,233,109,George Mason 3-0
-2026-03-01,Rhode Island,Kent St.,Home,9.6%,90.4%,Kent St. -6.3,4.3,263,25,Rhode Island 0-0
+2026-03-01,Rhode Island,Kent St.,Home,9.6%,90.4%,Kent St. -6.3,4.3,263,25,
 2026-03-01,Ark.-Pine Bluff,Arkansas St.,Away,7.6%,92.4%,Arkansas St. -7.1,4.2,250,59,Arkansas St. 7-2
 2026-03-01,Brown,Charleston So.,Away,11.1%,88.9%,Charleston So. -6.03,4.2,264,50,Charleston So. 10-4
 2026-03-01,Eastern Mich.,SIUE,Away,36.3%,63.7%,SIUE -1.63,4.2,224,232,SIUE 4-3
@@ -132,11 +132,11 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-03-01,Stonehill,VMI,Away,13.1%,86.9%,VMI -5.39,3.1,291,146,VMI 7-0
 2026-03-01,Lafayette,William & Mary,Away,11.0%,89.0%,William & Mary -5.85,3.0,271,188,William & Mary 12-5
 2026-03-01,Mercyhurst,Murray St.,Away,4.4%,95.6%,Murray St. -8.74,3.0,293,114,Murray St. 20-4
-2026-03-01,LIU,UMass Lowell,Away,42.2%,57.8%,UMass Lowell -0.54,2.9,297,298,LIU 0-0
+2026-03-01,LIU,UMass Lowell,Away,42.2%,57.8%,UMass Lowell -0.54,2.9,297,298,
 2026-03-01,Presbyterian,North Florida,Home,16.3%,83.7%,North Florida -4.79,2.9,295,179,North Florida 12-2
 2026-03-01,FDU,Georgetown,Away,11.3%,88.7%,Georgetown -5.74,2.8,300,161,Georgetown 6-5
 2026-03-01,La Salle,Coppin St.,Home,82.9%,17.1%,La Salle -4.44,2.7,195,303,La Salle 8-7
-2026-03-01,NJIT,Iona,Home,71.1%,28.9%,NJIT -2.57,2.7,254,302,NJIT 0-0
+2026-03-01,NJIT,Iona,Home,71.1%,28.9%,NJIT -2.57,2.7,254,302,
 2026-03-01,Prairie View,New Mexico St.,Home,14.9%,85.1%,New Mexico St. -4.96,2.6,292,214,New Mexico St. 16-1
 2026-03-01,Northeastern,Grambling,Neutral,90.0%,10.0%,Northeastern -6.26,2.5,209,289,Northeastern 10-0
 2026-03-01,Mississippi Val.,Alcorn,Neutral,66.7%,33.3%,Mississippi Val. -1.96,2.4,299,305,Mississippi Val. 15-7
