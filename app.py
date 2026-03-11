@@ -110,18 +110,20 @@ def get_efficiency_data():
 def get_TSR_data():
     file_path = 'baseball_stats.xlsx - Data (2).csv'
     
-
-    TSR_df = pd.DataFrame(final_results).sort_values(by='TSR', ascending=False).reset_index(drop=True)
-
-    # --- THE ADDITION: Add a Rank Column ---
-    # This creates a list from 1 to the total number of teams
-    TSR_df.insert(0, 'Rank', range(1, len(rpi_df) + 1))
+    # Load the data
+    df = pd.read_csv(file_path)
     
-    # Optional: Add a '#' to the rank for style
-    TSR_df['Rank'] = '#' + tsr_df['Rank'].astype(str)
+    # 1. Sort by TSR descending so the best teams are at the top
+    tsr_df = df.sort_values(by='TSR', ascending=False).reset_index(drop=True)
 
-    return TSR_df
-    return pd.DataFrame(final_results).sort_values(by='TSR', ascending=False).reset_index(drop=True)
+    # 2. Slice the DataFrame to only keep the first 25 rows
+    tsr_df = tsr_df.head(25)
+
+    # 3. Add the Rank column (now it will only go from 1 to 25)
+    tsr_df.insert(0, 'Rank', range(1, len(tsr_df) + 1))
+    tsr_df['Rank'] = '#' + tsr_df['Rank'].astype(str)
+
+    return tsr_df
 
 
 # --- 2. SIDEBAR (Only defined ONCE to avoid Duplicate ID error) ---
@@ -200,8 +202,21 @@ elif page == "Diamond Standard Blog":
     st.info("Welcome to Diamond Standard. This website will focus on College Baseball Analytics as I search for the best teams, and the teams that will make it to Omaha. More blog posts to come in the future.")
 
 elif page == "Top 25 Rankings":
-    st.title("Team Strength Rankings")
-    eff_def = get_TSR_data()
+    st.title("Top 25 Rankings")
+    
+    try:
+        tsr_data = get_TSR_data()
+        
+        # Display the Top 25 specifically
+        top_25 = tsr_data.head(25)
+        
+        # use st.dataframe for an interactive table or st.table for a static one
+        st.dataframe(top_25, use_container_width=True, hide_index=True)
+        
+    except FileNotFoundError:
+        st.error("The data file was not found. Please check the file path.")
+    except KeyError:
+        st.error("The column 'TSR' was not found in the CSV. Check your column headers!")
 
 
 
