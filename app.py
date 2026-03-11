@@ -109,43 +109,40 @@ def get_efficiency_data():
 
 def get_TSR_data():
     file_path = 'baseball_stats.xlsx - Data (2).csv'
-    df = pd.read_csv(file_path)
-
-    # 1. Define exactly which columns contain Team Names
-    # Based on your setup, these are your "Team" headers:
-    conference_cols = ['SEC', 'ACC', 'Big 10', 'Big 12', 'Mid-Major']
     
-    all_data = []
-
-    for conf in conference_cols:
-        if conf in df.columns:
-            # We find the TSR column that belongs to this conference.
-            # Usually, Pandas names them 'TSR', 'TSR.1', 'TSR.2', etc.
-            conf_idx = df.columns.get_loc(conf)
-            
-            # This looks at the column immediately to the right of the Conference name
-            tsr_col_name = df.columns[conf_idx + 1] 
-            
-            # Pull Team and TSR, drop rows where the Team name is empty
-            temp_df = df[[conf, tsr_col_name]].dropna(subset=[conf])
-            
-            # Rename columns to a standard format so we can stack them
-            temp_df.columns = ['Team Name', 'TSR']
-            all_data.append(temp_df)
-
-    # 2. Combine all conferences into one master list
-    master_df = pd.concat(all_data, ignore_index=True)
-
-    # 3. Clean and Sort
+    # Load the data
+    df = pd.read_csv(file_path)
+    
+    # --- STEP 1: Extract Pairs ---
+    # Based on your file, Pair 1 is Column 3 (Teams) and Column 0 (TSR)
+    pair1 = df.iloc[:, [3, 0]].copy()
+    pair1.columns = ['Team Name', 'TSR']
+    
+    # Pair 2 is Column 8 (Teams) and Column 13 (TSR)
+    pair2 = df.iloc[:, [8, 13]].copy()
+    pair2.columns = ['Team Name', 'TSR']
+    
+    # --- STEP 2: Combine and Clean ---
+    # Merge both lists into one master list
+    master_df = pd.concat([pair1, pair2], ignore_index=True)
+    
+    # Convert TSR to numbers (this fixes errors if there's text in the column)
     master_df['TSR'] = pd.to_numeric(master_df['TSR'], errors='coerce')
-    master_df = master_df.sort_values(by='TSR', ascending=False).reset_index(drop=True)
+    
+    # Remove empty rows or rows that are actually section headers
+    headers_to_ignore = ['SEC', 'ACC', 'Big 10', 'Big 12', 'Mid-majors', 'obp', 'slg', 'ops', 'ra/g']
+    master_df = master_df.dropna(subset=['TSR', 'Team Name'])
+    master_df = master_df[~master_df['Team Name'].isin(headers_to_ignore)]
 
-    # 4. Grab the Top 25 and add the Rank
-    top_25 = master_df.head(25).copy()
-    top_25.insert(0, 'Rank', range(1, len(top_25) + 1))
-    top_25['Rank'] = '#' + top_25['Rank'].astype(str)
+    # --- STEP 3: Sort and Rank ---
+    # Sort by TSR descending and take the top 25
+    tsr_df = master_df.sort_values(by='TSR', ascending=False).head(25).reset_index(drop=True)
 
-    return top_25
+    # Add the Rank column
+    tsr_df.insert(0, 'Rank', range(1, len(tsr_df) + 1))
+    tsr_df['Rank'] = '#' + tsr_df['Rank'].astype(str)
+
+    return tsr_df
 
 
 # --- 2. SIDEBAR (Only defined ONCE to avoid Duplicate ID error) ---
