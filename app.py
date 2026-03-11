@@ -111,36 +111,36 @@ def get_TSR_data():
     file_path = 'baseball_stats.xlsx - Data (2).csv'
     df = pd.read_csv(file_path)
 
-    # 1. Identify all 'Team' and 'TSR' style columns
-    # In your file, they are likely named 'SEC', 'ACC', 'TSR', 'TSR.1', etc.
-    # We will create a master list of all teams and their respective TSRs
-    all_teams = []
-    all_tsrs = []
+    # 1. Define exactly which columns contain Team Names
+    # Based on your setup, these are your "Team" headers:
+    conference_cols = ['SEC', 'ACC', 'Big 10', 'Big 12', 'Mid-Major']
+    
+    all_data = []
 
-    # This loop looks through every column in your CSV
-    for col in df.columns:
-        if 'TSR' in col:
-            # Find the corresponding Team column (usually the column to the left)
-            # We'll assume the team name is in the column directly before the TSR
-            col_index = df.columns.get_loc(col)
-            team_col = df.columns[col_index - 1] 
+    for conf in conference_cols:
+        if conf in df.columns:
+            # We find the TSR column that belongs to this conference.
+            # Usually, Pandas names them 'TSR', 'TSR.1', 'TSR.2', etc.
+            conf_idx = df.columns.get_loc(conf)
             
-            # Add these to our master lists, dropping empty rows
-            temp_df = df[[team_col, col]].dropna()
-            all_teams.extend(temp_df[team_col].tolist())
-            all_tsrs.extend(temp_df[col].tolist())
+            # This looks at the column immediately to the right of the Conference name
+            tsr_col_name = df.columns[conf_idx + 1] 
+            
+            # Pull Team and TSR, drop rows where the Team name is empty
+            temp_df = df[[conf, tsr_col_name]].dropna(subset=[conf])
+            
+            # Rename columns to a standard format so we can stack them
+            temp_df.columns = ['Team Name', 'TSR']
+            all_data.append(temp_df)
 
-    # 2. Create a clean Master DataFrame
-    master_df = pd.DataFrame({
-        'Team Name': all_teams,
-        'TSR': all_tsrs
-    })
+    # 2. Combine all conferences into one master list
+    master_df = pd.concat(all_data, ignore_index=True)
 
     # 3. Clean and Sort
     master_df['TSR'] = pd.to_numeric(master_df['TSR'], errors='coerce')
     master_df = master_df.sort_values(by='TSR', ascending=False).reset_index(drop=True)
 
-    # 4. Final Polish: Top 25 with Rank
+    # 4. Grab the Top 25 and add the Rank
     top_25 = master_df.head(25).copy()
     top_25.insert(0, 'Rank', range(1, len(top_25) + 1))
     top_25['Rank'] = '#' + top_25['Rank'].astype(str)
