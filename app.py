@@ -109,26 +109,43 @@ def get_efficiency_data():
 
 def get_TSR_data():
     file_path = 'baseball_stats.xlsx - Data (2).csv'
-    
-    # 1. Load the data
     df = pd.read_csv(file_path)
-    
-    # 2. Sort by TSR descending (highest at the top)
-    # Ensure 'TSR' is treated as a number for correct sorting
-    df['TSR'] = pd.to_numeric(df['TSR'], errors='coerce')
-    tsr_df = df.sort_values(by='TSR', ascending=False).reset_index(drop=True)
 
-    # 3. Keep only the Top 25
-    tsr_df = tsr_df.head(25)
+    # 1. Identify all 'Team' and 'TSR' style columns
+    # In your file, they are likely named 'SEC', 'ACC', 'TSR', 'TSR.1', etc.
+    # We will create a master list of all teams and their respective TSRs
+    all_teams = []
+    all_tsrs = []
 
-    # 4. Filter to ONLY the columns you requested
-    # Note: Make sure 'Team' matches the column name in your CSV exactly
-    tsr_df = tsr_df[['Team', 'TSR']]
+    # This loop looks through every column in your CSV
+    for col in df.columns:
+        if 'TSR' in col:
+            # Find the corresponding Team column (usually the column to the left)
+            # We'll assume the team name is in the column directly before the TSR
+            col_index = df.columns.get_loc(col)
+            team_col = df.columns[col_index - 1] 
+            
+            # Add these to our master lists, dropping empty rows
+            temp_df = df[[team_col, col]].dropna()
+            all_teams.extend(temp_df[team_col].tolist())
+            all_tsrs.extend(temp_df[col].tolist())
 
-    # 5. Add the Rank column (1-25)
-    tsr_df.insert(0, 'Rank', range(1, len(tsr_df) + 1))
-    
-    return tsr_df
+    # 2. Create a clean Master DataFrame
+    master_df = pd.DataFrame({
+        'Team Name': all_teams,
+        'TSR': all_tsrs
+    })
+
+    # 3. Clean and Sort
+    master_df['TSR'] = pd.to_numeric(master_df['TSR'], errors='coerce')
+    master_df = master_df.sort_values(by='TSR', ascending=False).reset_index(drop=True)
+
+    # 4. Final Polish: Top 25 with Rank
+    top_25 = master_df.head(25).copy()
+    top_25.insert(0, 'Rank', range(1, len(top_25) + 1))
+    top_25['Rank'] = '#' + top_25['Rank'].astype(str)
+
+    return top_25
 
 
 # --- 2. SIDEBAR (Only defined ONCE to avoid Duplicate ID error) ---
