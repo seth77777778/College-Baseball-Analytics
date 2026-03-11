@@ -222,6 +222,7 @@ elif page == "Diamond Standard Blog":
 
 elif page == "Top 25 Rankings":
     st.title("Top 25 Rankings")
+    st.info("A lot of the best teams tend to have a super high OPS, even if their RPIs aren't as good")
     
     try:
         tsr_data = get_TSR_data()
