@@ -107,6 +107,23 @@ def get_efficiency_data():
         st.error(f"Error processing stats: {e}")
         return None
 
+def get_TSR_data():
+    file_path = 'baseball_stats.xlsx - Data (2).csv'
+    
+
+    TSR_df = pd.DataFrame(final_results).sort_values(by='TSR', ascending=False).reset_index(drop=True)
+
+    # --- THE ADDITION: Add a Rank Column ---
+    # This creates a list from 1 to the total number of teams
+    TSR_df.insert(0, 'Rank', range(1, len(rpi_df) + 1))
+    
+    # Optional: Add a '#' to the rank for style
+    TSR_df['Rank'] = '#' + tsr_df['Rank'].astype(str)
+
+    return TSR_df
+    return pd.DataFrame(final_results).sort_values(by='TSR', ascending=False).reset_index(drop=True)
+
+
 # --- 2. SIDEBAR (Only defined ONCE to avoid Duplicate ID error) ---
 st.sidebar.title("💎 Diamond Standard")
 page = st.sidebar.radio("Navigate", ["Home", "RPI Leaderboard", "Efficiency Analysis", "Diamond Standard Blog", "Top 25 Rankings"])
@@ -183,7 +200,8 @@ elif page == "Diamond Standard Blog":
     st.info("Welcome to Diamond Standard. This website will focus on College Baseball Analytics as I search for the best teams, and the teams that will make it to Omaha. More blog posts to come in the future.")
 
 elif page == "Top 25 Rankings":
-    st.title("Diamond Standard Top 25")
-    st.info("1. Texas, 2. UCLA, 3. Georgia Tech, 4. Mississippi State, 5. Southern Miss, 6. Arkansas, 7. Auburn, 8. Oklahoma, 9. Georgia, 10. Clemson, 11. Wake Forest, 12. NC State, 13. Virginia, 14. LSU, 15. North Carolina, 16. Coastal, 17. UTSA, 18. Florida State, 19. Texas A&M, 20. Southern California, 21. Kentucky, 22. Oregon St., 23. Florida, 24. UC Santa Barbara, 25. TCU")
+    st.title("Team Strength Rankings")
+    eff_def = get_TSR_data()
+
 
 
