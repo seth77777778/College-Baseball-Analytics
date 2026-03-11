@@ -110,19 +110,24 @@ def get_efficiency_data():
 def get_TSR_data():
     file_path = 'baseball_stats.xlsx - Data (2).csv'
     
-    # Load the data
+    # 1. Load the data
     df = pd.read_csv(file_path)
     
-    # 1. Sort by TSR descending so the best teams are at the top
+    # 2. Sort by TSR descending (highest at the top)
+    # Ensure 'TSR' is treated as a number for correct sorting
+    df['TSR'] = pd.to_numeric(df['TSR'], errors='coerce')
     tsr_df = df.sort_values(by='TSR', ascending=False).reset_index(drop=True)
 
-    # 2. Slice the DataFrame to only keep the first 25 rows
+    # 3. Keep only the Top 25
     tsr_df = tsr_df.head(25)
 
-    # 3. Add the Rank column (now it will only go from 1 to 25)
-    tsr_df.insert(0, 'Rank', range(1, len(tsr_df) + 1))
-    tsr_df['Rank'] = '#' + tsr_df['Rank'].astype(str)
+    # 4. Filter to ONLY the columns you requested
+    # Note: Make sure 'Team' matches the column name in your CSV exactly
+    tsr_df = tsr_df[['Team', 'TSR']]
 
+    # 5. Add the Rank column (1-25)
+    tsr_df.insert(0, 'Rank', range(1, len(tsr_df) + 1))
+    
     return tsr_df
 
 
