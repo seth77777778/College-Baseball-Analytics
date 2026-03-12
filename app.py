@@ -147,7 +147,7 @@ def get_TSR_data():
 
 # --- 2. SIDEBAR (Only defined ONCE to avoid Duplicate ID error) ---
 st.sidebar.title("💎 Diamond Standard")
-page = st.sidebar.radio("Navigate", ["Home", "RPI Leaderboard", "Efficiency Analysis", "Diamond Standard Blog", "Top 25 Rankings"])
+page = st.sidebar.radio("Navigate", ["Home", "RPI Leaderboard", "Efficiency Analysis", "Top 25 Rankings", "Diamond Standard Blog"])
 
 # --- 3. PAGE LOGIC ---
 if page == "Home":
