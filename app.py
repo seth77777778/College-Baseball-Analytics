@@ -215,10 +215,6 @@ elif page == "Efficiency Analysis":
 
    
         
-elif page == "Diamond Standard Blog":
-    st.title("Blog")
-    st.write("Blog Articles about College Basebal")
-    st.info("Welcome to Diamond Standard. This website will focus on College Baseball Analytics as I search for the best teams, and the teams that will make it to Omaha. More blog posts to come in the future.")
 
 elif page == "Top 25 Rankings":
     st.title("Top 25 Rankings")
@@ -237,6 +233,11 @@ elif page == "Top 25 Rankings":
         st.error("The data file was not found. Please check the file path.")
     except KeyError:
         st.error("The column 'TSR' was not found in the CSV. Check your column headers!")
+
+elif page == "Diamond Standard Blog":
+    st.title("Blog")
+    st.write("Blog Articles about College Basebal")
+    st.info("Welcome to Diamond Standard. This website will focus on College Baseball Analytics as I search for the best teams, and the teams that will make it to Omaha. More blog posts to come in the future.")
 
 
 
