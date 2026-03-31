@@ -237,6 +237,7 @@ elif page == "Diamond Standard Blog":
     st.title("Blog")
     st.write("Blog Articles about College Basebal")
     st.info("Welcome to Diamond Standard. This website will focus on College Baseball Analytics as I search for the best teams, and the teams that will make it to Omaha. More blog posts to come in the future.")
+    st.info ("3/30/2026. Top 25 rankings for the week of March 30th have been released. TSR formula: RPI+OWP+OPS-(RA/g). I believe this formula encapsulates the elements that make good teams good, and what make bad teams bad. Adding the OWP into the TSR rankings allows teams who play good competition to receive a boost in the rankings.")
 
 
 
