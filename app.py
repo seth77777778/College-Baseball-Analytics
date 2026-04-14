@@ -70,7 +70,7 @@ def get_rpi_data():
     return pd.DataFrame(final_results).sort_values(by='RPI', ascending=False).reset_index(drop=True)
 
 def get_efficiency_data():
-    file_path = 'baseball_stats.xlsx - Data (11).csv'
+    file_path = 'baseball_stats.xlsx - Data (12).csv'
     if not os.path.exists(file_path): 
         return None
     
@@ -108,7 +108,7 @@ def get_efficiency_data():
         return None
 
 def get_TSR_data():
-    file_path = 'baseball_stats.xlsx - Data (11).csv'
+    file_path = 'baseball_stats.xlsx - Data (12).csv'
     
     # Load the data
     df = pd.read_csv(file_path)
