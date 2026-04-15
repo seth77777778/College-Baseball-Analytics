@@ -1,7 +1,7 @@
 Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home Net,Final Score
 2026-04-14,Coastal Carolina,Wake Forest,Away,47.5%,52.5%,Wake Forest -0.09,9.4,19,28,Wake Forest 10-5
 2026-04-14,Southern Miss.,Ole Miss,Neutral,41.0%,59.0%,Ole Miss -1.26,9.1,31,13,Ole Miss 10-3
-2026-04-14,Oregon,Oregon St.,Away,37.8%,62.2%,Oregon St. -1.61,9.1,25,6,Oregon 0-0
+2026-04-14,Oregon,Oregon St.,Away,37.8%,62.2%,Oregon St. -1.61,9.1,25,6,
 2026-04-14,UTSA,Baylor,Home,55.8%,44.2%,UTSA -0.65,8.8,42,44,Baylor 10-9
 2026-04-14,Oklahoma St.,Oklahoma,Neutral,38.0%,62.0%,Oklahoma -1.42,8.8,40,14,Oklahoma St. 7-3
 2026-04-14,Liberty,Duke,Home,49.7%,50.3%,Liberty -0.18,8.8,27,67,Liberty 17-7
@@ -22,10 +22,10 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-04-14,Houston,Texas A&M,Away,14.6%,85.4%,Texas A&M -5.2,7.1,98,5,Texas A&M 10-2
 2026-04-14,Western Ky.,Louisville,Home,33.6%,66.4%,Louisville -2.06,7.1,118,65,Louisville 7-3
 2026-04-14,Virginia,VCU,Home,80.1%,19.9%,Virginia -4.01,7.0,29,110,VCU 6-2
-2026-04-14,Texas Tech,Abilene Christian,Home,65.1%,34.8%,Texas Tech -1.81,7.0,58,132,Texas Tech 0-0
+2026-04-14,Texas Tech,Abilene Christian,Home,65.1%,34.8%,Texas Tech -1.81,7.0,58,132,
 2026-04-14,Xavier,Cincinnati,Home,26.0%,74.0%,Cincinnati -3.05,6.9,123,38,Cincinnati 15-5
 2026-04-14,App State,Western Caro.,Away,38.4%,61.6%,Western Caro. -1.47,6.9,129,89,Western Caro. 14-4
-2026-04-14,NIU,Illinois St.,Home,45.9%,54.1%,Illinois St. -0.32,6.9,117,134,NIU 0-0
+2026-04-14,NIU,Illinois St.,Home,45.9%,54.1%,Illinois St. -0.32,6.9,117,134,
 2026-04-14,The Citadel,Charleston So.,Home,44.6%,55.4%,Charleston So. -0.41,6.9,113,135,The Citadel 15-5
 2026-04-14,Northwestern St.,LSU,Home,23.6%,76.4%,LSU -3.43,6.8,121,43,LSU 4-2
 2026-04-14,Bethune-Cookman,Florida,Away,8.9%,91.1%,Florida -6.54,6.8,106,7,Bethune-Cookman 13-7
@@ -89,7 +89,7 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-04-14,California Baptist,UC Riverside,Away,89.5%,10.5%,California Baptist -6.21,4.3,39,261,California Baptist 19-4
 2026-04-14,West Ga.,Georgia St.,Home,27.0%,73.0%,Georgia St. -2.94,4.2,256,137,Georgia St. 5-2
 2026-04-14,Fordham,FDU,Home,65.4%,34.6%,Fordham -1.74,4.2,235,212,Fordham 23-17
-2026-04-14,Washington,Seattle U,Home,74.6%,25.4%,Washington -3.08,4.2,146,252,Washington 0-0
+2026-04-14,Washington,Seattle U,Home,74.6%,25.4%,Washington -3.08,4.2,146,252,
 2026-04-14,Ball St.,Butler,Away,69.9%,30.1%,Ball St. -2.27,4.1,194,241,Butler 8-5
 2026-04-14,Tennessee Tech,Austin Peay,Home,28.5%,71.5%,Austin Peay -2.58,4.1,245,180,Austin Peay 17-7
 2026-04-14,Marist,Rutgers,Away,15.4%,84.6%,Rutgers -4.69,4.1,238,131,Marist 10-3
@@ -101,7 +101,7 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-04-14,Wagner,Army West Point,Home,22.2%,77.8%,Army West Point -3.44,3.7,255,185,Army West Point 18-8
 2026-04-14,Presbyterian,Wofford,Away,11.5%,88.5%,Wofford -5.98,3.7,283,82,Wofford 11-2
 2026-04-14,NJIT,Monmouth,Home,26.9%,73.1%,Monmouth -2.94,3.7,276,169,NJIT 17-5
-2026-04-14,St. Bonaventure,Le Moyne,Home,49.6%,50.4%,St. Bonaventure -0.02,3.5,291,273,St. Bonaventure 0-0
+2026-04-14,St. Bonaventure,Le Moyne,Home,49.6%,50.4%,St. Bonaventure -0.02,3.5,291,273,
 2026-04-14,Bradley,Iowa,Away,7.3%,92.7%,Iowa -7.26,3.5,288,77,Iowa 20-1
 2026-04-14,Kent St.,Mercyhurst,Away,94.7%,5.3%,Kent St. -8.22,3.5,53,292,Kent St. 14-2
 2026-04-14,Binghamton,Cornell,Away,76.2%,23.8%,Binghamton -3.63,3.4,144,299,Binghamton 11-4
