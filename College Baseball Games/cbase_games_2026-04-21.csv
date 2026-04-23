@@ -6,7 +6,7 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-04-21,DBU,TCU,Away,39.4%,60.6%,TCU -1.39,8.4,67,30,TCU 6-5
 2026-04-21,Houston,Rice,Away,51.2%,48.8%,Houston -0.13,8.3,76,73,Houston 4-3
 2026-04-21,Pittsburgh,West Virginia,Away,29.7%,70.3%,West Virginia -2.47,8.3,52,18,Pittsburgh 23-1
-2026-04-21,UTSA,Texas A&M,Home,21.5%,78.5%,Texas A&M -3.79,8.2,43,5,UTSA 0-0
+2026-04-21,UTSA,Texas A&M,Home,21.5%,78.5%,Texas A&M -3.79,8.2,43,5,
 2026-04-21,Duke,Liberty,Away,35.5%,64.5%,Liberty -1.91,8.2,74,22,Liberty 13-10
 2026-04-21,UAB,Alabama,Home,22.3%,77.7%,Alabama -3.52,8.2,40,15,UAB 11-2
 2026-04-21,Michigan,Miami (OH),Home,60.0%,40.0%,Michigan -1.21,8.1,47,80,Miami (OH) 12-10
@@ -41,12 +41,12 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-04-21,Virginia Tech,VCU,Home,72.4%,27.6%,Virginia Tech -2.96,6.4,55,157,Virginia Tech 8-6
 2026-04-21,USC Upstate,Clemson,Home,18.4%,81.7%,Clemson -4.37,6.4,138,42,Clemson 7-2
 2026-04-21,Florida St.,North Florida,Away,85.6%,14.4%,Florida St. -5.25,6.4,11,144,Florida St. 4-1
-2026-04-21,Air Force,Texas,Away,10.0%,90.0%,Texas -6.44,6.3,141,2,Air Force 0-0
+2026-04-21,Air Force,Texas,Away,10.0%,90.0%,Texas -6.44,6.3,141,2,
 2026-04-21,Illinois St.,Illinois,Home,34.2%,65.8%,Illinois -1.95,6.3,153,98,Illinois St. 13-6
 2026-04-21,UIW,Texas St.,Home,21.8%,78.2%,Texas St. -3.72,6.2,155,53,Texas St. 3-1
 2026-04-21,ULM,Northwestern St.,Home,32.9%,67.1%,Northwestern St. -1.83,6.2,140,136,ULM 4-1
-2026-04-21,UT Arlington,SFA,Home,53.0%,47.0%,UT Arlington -0.42,6.1,149,174,UT Arlington 0-0
-2026-04-21,Stanford,Santa Clara,Home,64.0%,36.0%,Stanford -2.01,6.1,72,186,Stanford 0-0
+2026-04-21,UT Arlington,SFA,Home,53.0%,47.0%,UT Arlington -0.42,6.1,149,174,
+2026-04-21,Stanford,Santa Clara,Home,64.0%,36.0%,Stanford -2.01,6.1,72,186,
 2026-04-21,VMI,Longwood,Home,53.5%,46.5%,VMI -0.43,6.1,142,176,Longwood 10-4
 2026-04-21,Kansas St.,Grand Canyon,Home,80.2%,19.8%,Kansas St. -4.18,6.0,35,171,Kansas St. 8-3
 2026-04-21,Murray St.,Ole Miss,Away,11.1%,88.9%,Ole Miss -6.05,6.0,161,9,Ole Miss 19-2
@@ -58,12 +58,12 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-04-21,Saint Joseph's,Penn,Home,63.8%,36.2%,Saint Joseph's -1.94,5.7,88,206,Saint Joseph's 8-2
 2026-04-21,James Madison,George Mason,Home,46.0%,54.0%,George Mason -0.6,5.6,175,195,George Mason 7-4
 2026-04-21,Elon,Winthrop,Away,28.1%,71.9%,Winthrop -2.71,5.5,204,82,Elon 10-8
-2026-04-21,San Jose St.,Pacific,Home,57.2%,42.8%,San Jose St. -1.03,5.4,158,209,San Jose St. 0-0
+2026-04-21,San Jose St.,Pacific,Home,57.2%,42.8%,San Jose St. -1.03,5.4,158,209,
 2026-04-21,NIU,UIC,Away,59.3%,40.7%,NIU -1.19,5.4,119,223,NIU 9-8
 2026-04-21,UNC Greensboro,Wake Forest,Away,10.2%,89.8%,Wake Forest -6.35,5.4,190,25,Wake Forest 14-3
 2026-04-21,FIU,FGCU,Home,29.7%,70.3%,FGCU -2.45,5.3,200,116,FGCU 10-9
 2026-04-21,Radford,Davidson,Home,60.0%,40.0%,Radford -1.13,5.3,170,199,Radford 18-2
-2026-04-21,Brown,Bryant,Away,41.1%,58.9%,Bryant -0.91,5.3,189,194,Brown 0-0
+2026-04-21,Brown,Bryant,Away,41.1%,58.9%,Bryant -0.91,5.3,189,194,
 2026-04-21,Lipscomb,Tennessee,Away,9.0%,91.0%,Tennessee -6.7,5.3,198,28,Tennessee 14-4
 2026-04-21,Cal Poly,Pepperdine,Away,78.0%,22.0%,Cal Poly -3.72,5.1,83,210,Pepperdine 6-3
 2026-04-21,New Orleans,LSU,Home,13.5%,86.5%,LSU -5.37,5.1,212,44,LSU 10-7
@@ -108,7 +108,7 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-04-21,Cornell,Binghamton,Home,19.6%,80.4%,Binghamton -4.23,3.3,292,156,Cornell 10-6
 2026-04-21,Bradley,Northwestern,Away,13.5%,86.5%,Northwestern -5.43,3.2,295,122,Northwestern 11-6
 2026-04-21,Manhattan,La Salle,Home,39.3%,60.7%,La Salle -1.17,3.2,293,260,La Salle 14-4
-2026-04-21,Nicholls,Jackson St.,Home,86.8%,13.2%,Nicholls -5.39,3.2,137,287,Nicholls 0-0
+2026-04-21,Nicholls,Jackson St.,Home,86.8%,13.2%,Nicholls -5.39,3.2,137,287,
 2026-04-21,Northern Ky.,Ohio,Away,70.4%,29.6%,Northern Ky. -2.51,3.1,225,294,Northern Ky. 7-4
 2026-04-21,Youngstown St.,Toledo,Home,20.6%,79.4%,Toledo -3.82,2.9,285,220,Youngstown St. 11-10
 2026-04-21,Central Conn. St.,Massachusetts,Away,25.1%,74.9%,Massachusetts -2.92,2.5,296,270,Central Conn. St. 6-4
