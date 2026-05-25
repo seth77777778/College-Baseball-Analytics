@@ -207,7 +207,7 @@ elif page == "Efficiency Analysis":
             
             ---
             ### **Takeaways**
-            * **It would be too much to put all 307 D1 College Baseball teams onto one graph. Therefore, I decided to do the ACC, SEC, Big 10, Big 12, and 26 mid-majors that are having good seasons this year, and that typically have good seasons.**
+            * **It would be too much to put all 307 D1 College Baseball teams onto one graph. Therefore, I decided to do the ACC, SEC, Big 10, Big 12, and 30 mid-majors that are having good seasons this year, and that typically have good seasons.**
             """)
     else:
         st.error("Stats file 'baseball_stats.csv' not found.")
