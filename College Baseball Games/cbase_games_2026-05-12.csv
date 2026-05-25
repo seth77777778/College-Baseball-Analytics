@@ -1,7 +1,7 @@
 Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home Net,Final Score
 2026-05-12,Auburn,Jacksonville St.,Away,57.5%,42.5%,Auburn -1.14,9.3,5,26,Jacksonville St. 4-1
 2026-05-12,Wake Forest,Liberty,Home,56.0%,44.0%,Wake Forest -0.95,9.1,22,34,Wake Forest 7-5
-2026-05-12,Campbell,East Carolina,Away,39.2%,60.8%,East Carolina -1.44,8.4,57,49,Campbell 0-0
+2026-05-12,Campbell,East Carolina,Away,39.2%,60.8%,East Carolina -1.44,8.4,57,49,
 2026-05-12,Michigan,Kent St.,Home,45.1%,54.9%,Kent St. -0.63,8.4,50,67,Kent St. 5-3
 2026-05-12,Troy,UAB,Away,54.9%,45.1%,Troy -0.86,8.3,64,70,Troy 14-5
 2026-05-12,Texas St.,UTSA,Away,34.9%,65.1%,UTSA -2.01,8.2,56,48,UTSA 19-4
@@ -16,9 +16,9 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-05-12,Clemson,USC Upstate,Away,67.5%,32.5%,Clemson -2.44,7.3,47,109,USC Upstate 6-3
 2026-05-12,Fla. Atlantic,FGCU,Home,43.3%,56.7%,FGCU -0.83,7.1,106,122,Fla. Atlantic 9-3
 2026-05-12,North Carolina,UNCW,Away,76.6%,23.4%,North Carolina -4.42,7.0,6,133,North Carolina 13-7
-2026-05-12,Virginia Tech,Marshall,Home,57.6%,42.4%,Virginia Tech -1.54,6.9,40,168,Virginia Tech 0-0
+2026-05-12,Virginia Tech,Marshall,Home,57.6%,42.4%,Virginia Tech -1.54,6.9,40,168,
 2026-05-12,Winthrop,South Carolina,Home,38.8%,61.2%,South Carolina -1.53,6.9,131,99,Winthrop 5-2
-2026-05-12,Arizona St.,Grand Canyon,Away,74.1%,25.9%,Arizona St. -3.8,6.7,27,144,Arizona St. 0-0
+2026-05-12,Arizona St.,Grand Canyon,Away,74.1%,25.9%,Arizona St. -3.8,6.7,27,144,
 2026-05-12,Portland,Oregon St.,Home,14.0%,86.0%,Oregon St. -6.34,6.6,128,15,Oregon St. 8-3
 2026-05-12,Wright St.,Ohio St.,Home,33.1%,66.9%,Ohio St. -2.62,6.5,155,73,Wright St. 8-4
 2026-05-12,Richmond,Virginia,Away,19.6%,80.4%,Virginia -4.76,6.2,159,33,Virginia 18-6
@@ -27,36 +27,36 @@ Date,Away Team,Home Team,Location,Away Win %,Home Win %,PEAR,GQI,Away Net,Home N
 2026-05-12,Houston Christian,Sam Houston,Away,41.1%,58.9%,Sam Houston -1.13,6.0,167,147,Houston Christian 4-3
 2026-05-12,Penn St.,Pittsburgh,Away,20.1%,79.9%,Pittsburgh -4.83,5.9,180,38,Pittsburgh 11-7
 2026-05-12,Dayton,Notre Dame,Neutral,22.9%,77.1%,Notre Dame -4.3,5.8,190,44,Notre Dame 16-6
-2026-05-12,Bethune-Cookman,UCF,Away,16.7%,83.3%,UCF -5.46,5.8,179,31,Bethune-Cookman 0-0
-2026-05-12,Purdue,Ball St.,Home,69.7%,30.3%,Purdue -3.16,5.7,54,212,Purdue 0-0
+2026-05-12,Bethune-Cookman,UCF,Away,16.7%,83.3%,UCF -5.46,5.8,179,31,
+2026-05-12,Purdue,Ball St.,Home,69.7%,30.3%,Purdue -3.16,5.7,54,212,
 2026-05-12,Col. of Charleston,Ga. Southern,Away,56.8%,43.2%,Col. of Charleston -1.1,5.7,150,191,Ga. Southern 9-5
-2026-05-12,Pacific,CSU Bakersfield,Home,48.4%,51.6%,CSU Bakersfield -0.22,5.6,193,189,Pacific 0-0
+2026-05-12,Pacific,CSU Bakersfield,Home,48.4%,51.6%,CSU Bakersfield -0.22,5.6,193,189,
 2026-05-12,SIUE,Southern Ill.,Away,47.8%,52.2%,SIUE -0.0,5.6,145,215,SIUE 9-7
 2026-05-12,Lindenwood,Indiana St.,Home,35.8%,64.2%,Indiana St. -1.86,5.5,197,137,Indiana St. 11-6
 2026-05-12,North Ala.,Murray St.,Home,34.4%,65.6%,Murray St. -2.0,5.5,178,161,Murray St. 9-5
-2026-05-12,Milwaukee,NIU,Away,29.4%,70.6%,NIU -2.98,5.4,202,102,Milwaukee 0-0
+2026-05-12,Milwaukee,NIU,Away,29.4%,70.6%,NIU -2.98,5.4,202,102,
 2026-05-12,Gardner-Webb,Charlotte,Home,20.8%,79.3%,Charlotte -4.63,5.1,207,94,Charlotte 11-1
 2026-05-12,New Mexico St.,New Mexico,Home,24.4%,75.6%,New Mexico -3.67,5.0,184,154,New Mexico 12-6
-2026-05-12,Hofstra,Fordham,Home,47.0%,53.0%,Fordham -0.12,5.0,177,236,Hofstra 0-0
+2026-05-12,Hofstra,Fordham,Home,47.0%,53.0%,Fordham -0.12,5.0,177,236,
 2026-05-12,Cal Poly,Fresno St.,Away,73.8%,26.2%,Cal Poly -3.93,5.0,60,241,Cal Poly 15-10
 2026-05-12,Georgetown,Maryland,Away,25.9%,74.1%,Maryland -3.62,5.0,221,98,Maryland 21-6
 2026-05-12,Seattle U,Washington St.,Away,23.5%,76.5%,Washington St. -4.08,4.9,235,81,Seattle U 12-11
 2026-05-12,William & Mary,Duke,Home,18.7%,81.3%,Duke -5.14,4.9,219,78,Duke 14-9
-2026-05-12,Northern Ky.,Kentucky,Home,12.2%,87.8%,Kentucky -6.86,4.9,230,29,Northern Ky. 0-0
+2026-05-12,Northern Ky.,Kentucky,Home,12.2%,87.8%,Kentucky -6.86,4.9,230,29,
 2026-05-12,Belmont,Tennessee,Away,8.0%,92.0%,Tennessee -8.4,4.8,228,23,Tennessee 11-1
 2026-05-12,Utah Valley,BYU,Home,20.0%,80.0%,BYU -4.9,4.8,239,59,BYU 13-3
 2026-05-12,UT Martin,Ole Miss,Home,6.6%,93.5%,Ole Miss -8.99,4.7,232,18,Ole Miss 17-6
-2026-05-12,UMass Lowell,Boston College,Home,11.5%,88.5%,Boston College -7.04,4.5,253,35,UMass Lowell 0-0
+2026-05-12,UMass Lowell,Boston College,Home,11.5%,88.5%,Boston College -7.04,4.5,253,35,
 2026-05-12,Eastern Mich.,Michigan St.,Away,19.6%,80.4%,Michigan St. -4.93,4.5,237,101,Michigan St. 5-2
 2026-05-12,UMBC,Towson,Home,48.8%,51.2%,Towson -0.11,4.5,226,246,Towson 9-8
 2026-05-12,Toledo,Bowling Green,Neutral,69.3%,30.7%,Toledo -3.03,4.5,171,229,Toledo 15-5
 2026-05-12,Elon,Queens (NC),Away,52.6%,47.4%,Elon -0.41,4.4,224,254,Elon 10-3
 2026-05-12,Bellarmine,Louisville,Away,9.0%,91.0%,Louisville -7.93,4.1,260,62,Louisville 14-7
-2026-05-12,Arkansas St.,Ark.-Pine Bluff,Home,83.5%,16.5%,Arkansas St. -5.52,4.1,82,268,Arkansas St. 0-0
+2026-05-12,Arkansas St.,Ark.-Pine Bluff,Home,83.5%,16.5%,Arkansas St. -5.52,4.1,82,268,
 2026-05-12,Western Caro.,Presbyterian,Home,81.3%,18.7%,Western Caro. -5.26,4.0,87,274,Western Caro. 14-3
 2026-05-12,Akron,Oakland,Away,50.4%,49.6%,Akron -0.24,3.9,267,271,Oakland 13-10
 2026-05-12,Merrimack,Maine,Home,30.7%,69.3%,Maine -2.7,3.7,261,211,Maine 14-4
-2026-05-12,Valparaiso,Central Mich.,Home,35.9%,64.1%,Central Mich. -2.16,3.6,273,223,Valparaiso 0-0
+2026-05-12,Valparaiso,Central Mich.,Home,35.9%,64.1%,Central Mich. -2.16,3.6,273,223,
 2026-05-12,Le Moyne,UAlbany,Away,46.3%,53.7%,UAlbany -0.3,3.4,280,289,UAlbany 20-3
 2026-05-12,Mercyhurst,Niagara,Away,25.3%,74.7%,Niagara -3.89,2.8,299,233,Niagara 7-5
 2026-05-12,Manhattan,LIU,Home,25.3%,74.7%,LIU -3.76,2.7,292,248,Manhattan 11-1
